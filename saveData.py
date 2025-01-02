@@ -3,9 +3,9 @@ import csv
 import time
 import os
 
-# Configure serial port (adjust as needed)
-ser = serial.Serial('COM3', 115200)  # Replace 'COM3' with your Arduino's serial port
-csv_filename_prefix = "D:/handwriting from motion/aayush/9"
+# Configure serial port 
+ser = serial.Serial('COM3', 115200)  
+csv_filename_prefix = "D:/handwriting from motion/drishya/9"
 counter = 0
 while True:
     csv_filename = f"{csv_filename_prefix}.csv"
