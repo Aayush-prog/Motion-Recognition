@@ -5,7 +5,7 @@ import os
 
 # Configure serial port 
 ser = serial.Serial('COM3', 115200)  
-csv_filename_prefix = "D:/handwriting from motion/kismis/9"
+csv_filename_prefix = "D:/handwriting from motion/abhishek/9"
 counter = 0
 while True:
     csv_filename = f"{csv_filename_prefix}.csv"
